@@ -3,6 +3,13 @@
 <Document>
   <name>Dondra Head TSS</name>
   <Style id="default">
+    <IconStyle>
+		  <!-- Scale of zero hides the pushpin -->
+      <scale>0.0</scale>
+    </IconStyle>
+    <LabelStyle>
+      <color>FFFF4E87</color>
+    </LabelStyle>
     <LineStyle>
       <color>FFFF4E87</color>
       <width>3</width>
