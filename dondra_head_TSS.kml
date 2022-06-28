@@ -11,16 +11,6 @@
       <color>ff007cf5</color>
       <fill>0</fill>
     </PolyStyle>
-  </Style>
-  <Style id="label">
-    <LabelStyle>
-      <color>ff007cf5</color>
-      <scale>1</scale>
-    </LabelStyle>
-    <IconStyle>
-      <scale>0</scale>
-    </IconStyle>
-  </Style>
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Landward</name>
