@@ -22,15 +22,6 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name>Landward</name>
-    <styleUrl>#label</styleUrl>
-    <Point>
-      <coordinates>
-        80.645,5.835,0
-      </coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Landward</name>
     <Polygon>
