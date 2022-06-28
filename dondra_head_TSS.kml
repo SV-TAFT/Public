@@ -15,8 +15,11 @@
   <Style id="label">
     <LabelStyle>
       <color>ff007cf5</color>
-      <scale>1.5</scale>
+      <scale>1</scale>
     </LabelStyle>
+    <IconStyle>
+      <scale>0</scale>
+    </IconStyle>
   </Style>
   <Placemark>
     <name>Landward</name>
