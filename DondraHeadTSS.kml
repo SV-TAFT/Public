@@ -4,13 +4,14 @@
   <name>Dondra Head TSS</name>
   <Style id="default">
     <LineStyle>
-      <color>ff007cf5</color>
-      <width>2</width>
+      <color>ff0000ff</color>
+      <width>3</width>
     </LineStyle>
     <PolyStyle>
-      <color>ff007cf5</color>
-      <fill>0</fill>
+      <color>0d00ffff</color>
+      <fill>1</fill>
     </PolyStyle>
+  </Style>
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Landward</name>
@@ -19,32 +20,33 @@
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-            80.54,5.875,0
             80.645,5.875,0
             80.645,5.835,0
             80.54,5.835,0
             80.54,5.875,0
+            80.645,5.875,0
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-  <styleUrl>#default</styleUrl>
-  <name>Seaward</name>
-  <Polygon>
-    <altitudeMode>clampToGround</altitudeMode>
-    <outerBoundaryIs>
-      <LinearRing>
-        <coordinates>
-          80.54,5.785,0
-          80.645,5.785,0
-          80.645,5.73333,0
-          80.54,5.73333,0
-        </coordinates>
-      </LinearRing>
-    </outerBoundaryIs>
-  </Polygon>
-</Placemark>
+    <styleUrl>#default</styleUrl>
+    <name>Seaward</name>
+    <Polygon>
+      <altitudeMode>clampToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            80.645,5.785,0
+            80.645,5.73333,0
+            80.54,5.73333,0
+            80.54,5.785,0
+            80.645,5.785,0
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
 </Document>
 </kml>
