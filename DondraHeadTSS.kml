@@ -4,11 +4,11 @@
   <name>Dondra Head TSS</name>
   <Style id="default">
     <LineStyle>
-      <color>FFFE8CB1</color>
+      <color>FFFF4E87</color>
       <width>3</width>
     </LineStyle>
     <PolyStyle>
-      <color>0DFE8CB1</color>
+      <color>0DFF4E87</color>
       <fill>1</fill>
     </PolyStyle>
   </Style>
