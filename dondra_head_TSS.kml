@@ -12,6 +12,21 @@
       <fill>0</fill>
     </PolyStyle>
   </Style>
+  <Style id="label">
+    <LabelStyle>
+      <color>ff007cf5</color>
+      <scale>1.5</scale>
+    </LabelStyle>
+  </Style>
+  <Placemark>
+    <name>Landward</name>
+    <styleUrl>#label</styleUrl>
+    <Point>
+      <coordinates>
+        80.645,5.835,0
+      </coordinates>
+    </Point>
+  </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Landward</name>
