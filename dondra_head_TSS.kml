@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-  <name>SAR Regions</name>
-  <Style id="highlight">
-    <LineStyle>
-      <color>ff0000ff</color>
-      <width>5</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>0d00ffff</color>
-      <fill>1</fill>
-    </PolyStyle>
-  </Style>
+  <name>Dondra Head TSS</name>
   <Style id="default">
     <LineStyle>
       <color>ff007cf5</color>
@@ -24,111 +14,43 @@
   </Style>
   <Placemark>
     <styleUrl>#highlight</styleUrl>
-    <name>SRR Sri Lanka</name>
+    <name>Landward</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <coordinates>
+      80.54,5.875,0
+      80.645,5.875,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <styleUrl>#default</styleUrl>
+    <name>Center</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-          77.743,0.255,0
-          91.445,0.255,0
-          91.445,6.107,0
-          81.305,10.419,0
-          78.699,10.419,0
-          78.699,9.19,0
-          77.743,6.978,0
-          77.743,0.255,0
+          80.54,5.835,0
+          80.645,5.835,0
+          80.645,5.785,0
+          80.54,5.785,0
+          80.54,5.835,0
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
   <Placemark>
-    <styleUrl>#default</styleUrl>
-    <name>SRR Maldives</name>
-    <Polygon>
-      <altitudeMode>clampToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-          77.743,0.255,0
-          77.743,6.978,0
-          72.727,8.667,0
-          67.609,1.467,0
-          67.609,-3.835,0
-          74.66,-3.835,0
-          74.66,-3.234,0
-          77.743,0.255,0
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
-  <Placemark>
-    <styleUrl>#default</styleUrl>
-    <name>SRR Bombay Sector</name>
-    <Polygon>
-      <altitudeMode>clampToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-          77.743,6.978,0
-          72.727,8.667,0
-          67.609,1.467,0
-          67.609,-3.835,0
-          60.003,-3.835,0
-          60.003,11.947,0
-          62.722,11.947,0
-          67.331,22.3,0
-          68.214,23.738,0
-          89.111,23.738,0
-          89.111,17.696,0
-          91.957,17.696,0
-          91.957,14.405,0
-          94.01,13.537,0
-          94.01,6.107,0
-          91.445,6.107,0
-          81.305,10.419,0
-          78.699,10.419,0
-          78.699,9.19,0
-          77.743,6.978,0
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
-  <Placemark>
-    <styleUrl>#default</styleUrl>
-    <name>SRR Australia</name>
-    <Polygon>
-      <altitudeMode>clampToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-          74.66,-3.234,0
-          77.743,0.255,0
-          91.445,0.255,0
-          106.98,-12.005,0
-          123.178,-12.005,0
-          126.687,-9.349,0
-          131.233,-8.221,0
-          135.01,-6.73,0
-          139.413,-9.664,0
-          142.68,-9.664,0
-          143.713,-8.882,0
-          144.136,-9.193,0
-          144.136,-11.805,0
-          155.232,-11.805,0
-          155.232,-13.797,0
-          160.037,-13.797,0
-          162.689,-19.97,0
-          162.689,-70.48,0
-          74.66,-70.48,0
-          74.66,-3.234,0        
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
+  <styleUrl>#highlight</styleUrl>
+  <name>Seaward</name>
+  <LineString>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>
+    80.54,5.73333,0
+    80.645,5.73333,0
+    </coordinates>
+  </LineString>
+</Placemark>
 </Document>
 </kml>
