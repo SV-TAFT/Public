@@ -19,7 +19,6 @@
     </LabelStyle>
     <IconStyle>
       <scale>0</scale>
-      <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction">
     </IconStyle>
   </Style>
   <Placemark>
