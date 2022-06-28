@@ -15,7 +15,7 @@
   <Style id="default">
     <LineStyle>
       <color>ff007cf5</color>
-      <width>1</width>
+      <width>0</width>
     </LineStyle>
     <PolyStyle>
       <color>ff007cf5</color>
