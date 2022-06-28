@@ -15,27 +15,16 @@
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Landward</name>
-    <LineString>
-      <altitudeMode>clampToGround</altitudeMode>
-      <coordinates>
-      80.54,5.875,0
-      80.645,5.875,0
-      </coordinates>
-    </LineString>
-  </Placemark>
-  <Placemark>
-    <styleUrl>#default</styleUrl>
-    <name>Center</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
         <LinearRing>
           <coordinates>
-          80.54,5.835,0
-          80.645,5.835,0
-          80.645,5.785,0
-          80.54,5.785,0
-          80.54,5.835,0
+            80.54,5.875,0
+            80.645,5.875,0
+            80.645,5.835,0
+            80.54,5.835,0
+            80.54,5.875,0
           </coordinates>
         </LinearRing>
       </outerBoundaryIs>
@@ -44,13 +33,19 @@
   <Placemark>
   <styleUrl>#default</styleUrl>
   <name>Seaward</name>
-  <LineString>
+  <Polygon>
     <altitudeMode>clampToGround</altitudeMode>
-    <coordinates>
-    80.54,5.73333,0
-    80.645,5.73333,0
-    </coordinates>
-  </LineString>
+    <outerBoundaryIs>
+      <LinearRing>
+        <coordinates>
+          80.54,5.785,0
+          80.645,5.785,0
+          80.645,5.73333,0
+          80.54,5.73333,0
+        </coordinates>
+      </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
 </Placemark>
 </Document>
 </kml>
