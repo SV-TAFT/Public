@@ -215,10 +215,8 @@
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>SRR Malaysia 3</name>
-    <Polygon>
+    <LineString>
       <altitudeMode>clampToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
           <coordinates>
           109.645694,2.050388,0
           109.633333,6.283333,0
@@ -236,11 +234,8 @@
           120,4,0
           118,4,0
           117.903916,4.164722,0
-          109.645694,2.050388,0
           </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
+    </LineString>
   </Placemark>
 </Document>
 </kml>
