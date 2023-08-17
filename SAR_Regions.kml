@@ -24,7 +24,7 @@
   </Style>
   <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>SRR Sri Lanka</name>
+    <name>Sri Lanka</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
@@ -44,7 +44,7 @@
   </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>SRR Maldives</name>
+    <name>Maldives</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
@@ -63,75 +63,39 @@
     </Polygon>
   </Placemark>
   <Placemark>
-    <styleUrl>#default</styleUrl>
-    <name>SRR Bombay Sector</name>
-    <Polygon>
+    <styleUrl>#highlight</styleUrl>
+    <name>India West</name>
+    <LineString>
       <altitudeMode>clampToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-          68.25,21,0
-          63,12,0
-          60,12,0
-          60,-6,0
-          68,-6,0
-          68,-0,0
-          73,8,0
-          78,6.166666,0
-          80,10,0
-          82,10,0
-          92,6,0
-          97.5,6,0
-          68.25,21,0
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
+        <coordinates>
+        68.184055,23.738333,0
+        63,12,0
+        60,12,0
+        60,-6,0
+        68,-6,0
+        68,-0,0
+        73,8,0
+        77.333333,6,0
+        77.333333,8.133333,0
+        </coordinates>
+    </LineString>
   </Placemark>
   <Placemark>
     <styleUrl>#highlight</styleUrl>
-    <name>SRR India West</name>
-    <Polygon>
+    <name>India East</name>
+    <LineString>
       <altitudeMode>clampToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-          68.184055,23.738333,0
-          63,12,0
-          60,12,0
-          60,-6,0
-          68,-6,0
-          68,-0,0
-          73,8,0
-          77.333333,6,0
-          77.333333,8.133333,0
-          68.184055,23.738333,0
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
-  <Placemark>
-    <styleUrl>#highlight</styleUrl>
-    <name>SRR India East</name>
-    <Polygon>
-      <altitudeMode>clampToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-          77.333333,8.133333,0
-          77.333333,6.166666,0
-          78,6,0
-          80,10,0
-          82,10,0
-          88.5,7.25,0
-          88.5,15.333333,0
-          89.097416,21.705944,0
-          77.333333,8.133333,0
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
+        <coordinates>
+        77.333333,8.133333,0
+        77.333333,6.166666,0
+        78,6,0
+        80,10,0
+        82,10,0
+        88.5,7.25,0
+        88.5,15.333333,0
+        89.097416,21.705944,0
+        </coordinates>
+    </LineString>
   </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
