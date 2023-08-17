@@ -112,6 +112,28 @@
     </Polygon>
   </Placemark>
   <Placemark>
+    <styleUrl>#highlight</styleUrl>
+    <name>SRR India East</name>
+    <Polygon>
+      <altitudeMode>clampToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+          77.333333,8.133333,0
+          77.333333,6.166666,0
+          78,6,0
+          80,10,0
+          82,10,0
+          88.5,7.25,0
+          88.5,15.333333,0
+          89.096972,21.706111,0
+          77.333333,8.133333,0
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
     <styleUrl>#default</styleUrl>
     <name>SRR Australia</name>
     <Polygon>
