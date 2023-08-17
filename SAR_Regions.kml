@@ -23,7 +23,7 @@
     </PolyStyle>
   </Style>
   <Placemark>
-    <styleUrl>#highlight</styleUrl>
+    <styleUrl>#default</styleUrl>
     <name>SRR Sri Lanka</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
@@ -89,7 +89,7 @@
     </Polygon>
   </Placemark>
   <Placemark>
-    <styleUrl>#default</styleUrl>
+    <styleUrl>#highlight</styleUrl>
     <name>SRR India West</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
