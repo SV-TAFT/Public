@@ -14,7 +14,7 @@
   </Style>
   <Style id="default">
     <LineStyle>
-      <color>ff007cf5</color>
+      <color>ff0000ff</color>
       <width>1</width>
     </LineStyle>
     <PolyStyle>
@@ -63,7 +63,7 @@
     </Polygon>
   </Placemark>
   <Placemark>
-    <styleUrl>#highlight</styleUrl>
+    <styleUrl>#default</styleUrl>
     <name>India West</name>
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
@@ -81,7 +81,7 @@
     </LineString>
   </Placemark>
   <Placemark>
-    <styleUrl>#highlight</styleUrl>
+    <styleUrl>#default</styleUrl>
     <name>India East</name>
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
