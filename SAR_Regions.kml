@@ -17,7 +17,7 @@
     <LabelStyle>
        <color>ff0000ff</color>
        <colorMode>normal</colorMode>
-       <scale>1</scale>
+       <scale>1.5</scale>
     </LabelStyle>
     <IconStyle>
         <scale>0</scale>
@@ -61,7 +61,7 @@
 
 <Placemark>
     <styleUrl>#point</styleUrl>
-    <name>MRCC Colombo</name>
+    <name>MRCC COLOMBO</name>
     <Point>
       <coordinates>
         79.841166,6.936166,0
@@ -71,7 +71,7 @@
 
 <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>Sri Lanka</name>
+    <name>SRI LANKA</name>
     <Point>
       <coordinates>
         83.493444,3.484694,0
@@ -82,7 +82,7 @@
 
 <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>Sri Lanka</name>
+    <name>SRI LANKA</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
