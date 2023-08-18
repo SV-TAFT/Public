@@ -28,6 +28,9 @@
          <colorMode>normal</colorMode>
          <scale>1.5</scale>
       </LabelStyle>
+      <IconStyle>
+          <scale>0</scale>
+      </IconStyle>
    </Style>
   <Placemark>
     <styleUrl>#default</styleUrl>
