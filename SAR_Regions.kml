@@ -271,5 +271,22 @@
         </coordinates>
     </LineString>
   </Placemark>
+  <Placemark>
+    <styleUrl>#default</styleUrl>
+    <name>Singapore 1</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+        104,9.5,0
+        103,7,0
+        102.666666,6.75,0
+        103.733333,4.833333,0
+        103.666666,3.666666,0
+        104.75,2.6,0
+        104.333333,1.333333,0
+        104.093777,1.332277,0
+        </coordinates>
+    </LineString>
+  </Placemark>
 </Document>
 </kml>
