@@ -182,7 +182,7 @@
         68,-0,0
         73,8,0
         77.333333,6.267166,0
-        77.333333,8.133333,0
+        77.333361,8.123222,0
         </coordinates>
     </LineString>
   </Placemark>
@@ -193,7 +193,7 @@
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
-        77.333333,8.133333,0
+        77.333361,8.123222,0
         77.333333,6.267166,0
         78,6,0
         80,10,0
