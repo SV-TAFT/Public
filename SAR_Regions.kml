@@ -102,6 +102,50 @@
     </Polygon>
   </Placemark>
 
+<!-- MALDIVES -->
+<!-- SOURCE: GISIS GLOBAL SAR PLAN -->
+<!-- DOI: 2019-11-21 -->
+<Placemark> //MRCC
+    <styleUrl>#point</styleUrl>
+    <name>MRCC VILLIMALE'</name>
+    <Point>
+      <coordinates>
+        73.486361,4.170833,0
+      </coordinates>
+    </Point>
+  </Placemark>
+<Placemark> //SAR REGION LABEL
+    <styleUrl>#default</styleUrl>
+    <name>MALDIVES</name>
+    <Point>
+      <coordinates>
+        71.470666,0,0
+      </coordinates>
+    </Point>
+  </Placemark>
+<Placemark> //SAR REGION AREA
+    <styleUrl>#default</styleUrl>
+    <name>MALDIVES</name>
+    <Polygon>
+      <altitudeMode>clampToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+          73,8,0
+          78,6,0
+          78,-2,0
+          75,-6,0
+          68,-6,0
+          68,0,0
+          73,8,0
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+
+
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Hong Kong</name>
@@ -147,26 +191,7 @@
     </Polygon>
   </Placemark>
 
-  <Placemark>
-    <styleUrl>#default</styleUrl>
-    <name>Maldives</name>
-    <Polygon>
-      <altitudeMode>clampToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
-          <coordinates>
-          73,8,0
-          78,6,0
-          78,-2,0
-          75,-6,0
-          68,-6,0
-          68,0,0
-          73,8,0
-          </coordinates>
-        </LinearRing>
-      </outerBoundaryIs>
-    </Polygon>
-  </Placemark>
+
 
   <Placemark>
     <styleUrl>#default</styleUrl>
