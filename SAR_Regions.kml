@@ -99,7 +99,7 @@
   </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>SRR Australia</name>
+    <name>Australia</name>
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
@@ -127,7 +127,7 @@
   </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>SRR Malaysia 1</name>
+    <name>Malaysia - MSRR</name>
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
@@ -146,7 +146,7 @@
   </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>SRR Malaysia 2</name>
+    <name>Malaysia - Gulf of Thailand & Malacca Strait</name>
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
@@ -163,7 +163,7 @@
   </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>SRR Malaysia 3</name>
+    <name>Malaysia - South China Sea & Sulu Sea</name>
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
@@ -183,6 +183,34 @@
         120,4,0
         118,4,0
         117.903916,4.164722,0
+        </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <styleUrl>#default</styleUrl>
+    <name>Thailand - Andaman Sea</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+        98.6167,10,0
+        96.5,10.1667,0
+        98,7.25,0
+        99.5,6.5,0
+        100.1167,6.4167,0
+        </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <styleUrl>#default</styleUrl>
+    <name>Thailand - Gulf of Thailand</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+        102.9167,11.6167,0
+        102.25,10,0
+        103.75,9.5,0
+        103.75,7,0
+        102.25,6.25,0
         </coordinates>
     </LineString>
   </Placemark>
