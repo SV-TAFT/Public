@@ -214,5 +214,18 @@
         </coordinates>
     </LineString>
   </Placemark>
+  <Placemark>
+    <styleUrl>#default</styleUrl>
+    <name>Cambodia</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+        102.909305,11.648166,0
+        102.25,10,0
+        103.75,9.5,0
+        104.438972,10.423555,0
+        </coordinates>
+    </LineString>
+  </Placemark>
 </Document>
 </kml>
