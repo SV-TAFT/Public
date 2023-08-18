@@ -277,13 +277,13 @@
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
-        108.9,1,0
-        108.5,1,0
-        108.5,2.25,0
-        116,7.683333,0
-        118,10,0
-        118,12,0
-        108,12,0
+108.9,1,0
+108.5,1,0
+108.5,2.25,0
+116,7.683333,0
+118,10,0
+118,12,0
+108,12,0
         </coordinates>
     </LineString>
   </Placemark>
@@ -293,14 +293,41 @@
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
-        104,9.5,0
-        103,7,0
-        102.666666,6.75,0
-        103.733333,4.833333,0
-        103.666666,3.666666,0
-        104.75,2.6,0
-        104.333333,1.333333,0
-        104.093777,1.332277,0
+104,9.5,0
+103,7,0
+102.666666,6.75,0
+103.733333,4.833333,0
+103.666666,3.666666,0
+104.75,2.6,0
+104.333333,1.333333,0
+104.093777,1.332277,0
+        </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <styleUrl>#highlight</styleUrl>
+    <name>Singapore 3</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+103.6,1.283333,0
+103.5,1.216666,0
+102.166666,1.65,0
+        </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <styleUrl>#highlight</styleUrl>
+    <name>Singapore 4</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+104.766666,0,0
+105.166666,0,0
+106,-0.833333,0
+108,0,0
+109,0,0
+109,0.25,0
         </coordinates>
     </LineString>
   </Placemark>
