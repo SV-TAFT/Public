@@ -2,6 +2,28 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
   <name>SAR Regions</name>
+
+<!-- STYLE DEFINITIONS -->
+
+<Style id="default">
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff007cf5</color>
+      <fill>0</fill>
+    </PolyStyle>
+    <LabelStyle>
+       <color>ff0000ff</color>
+       <colorMode>normal</colorMode>
+       <scale>1</scale>
+    </LabelStyle>
+    <IconStyle>
+        <scale>0</scale>
+    </IconStyle>
+  </Style>
+
   <Style id="highlight">
     <LineStyle>
       <color>ff0000ff</color>
@@ -11,30 +33,27 @@
       <color>0d00ffff</color>
       <fill>0</fill>
     </PolyStyle>
+    <LabelStyle>
+       <color>ff0000ff</color>
+       <colorMode>normal</colorMode>
+       <scale>1.5</scale>
+    </LabelStyle>
+    <IconStyle>
+        <scale>0</scale>
+    </IconStyle>
   </Style>
-  <Style id="default">
-    <LineStyle>
-      <color>ff0000ff</color>
-      <width>1</width>
-    </LineStyle>
-    <PolyStyle>
-      <color>ff007cf5</color>
-      <fill>0</fill>
-    </PolyStyle>
-  </Style>
-   <Style id="label">
-      <LabelStyle>
-         <color>ff0000ff</color>
-         <colorMode>normal</colorMode>
-         <scale>1.5</scale>
-      </LabelStyle>
-      <IconStyle>
-          <scale>0</scale>
-      </IconStyle>
-   </Style>
-  <Placemark>
+
+
+<!-- SAR REGIONS -->
+
+<Placemark>
     <styleUrl>#default</styleUrl>
     <name>Sri Lanka</name>
+    <Point>
+      <coordinates>
+        84.552222,3.484694,0
+      </coordinates>
+    </Point>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
@@ -52,15 +71,7 @@
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
- <Placemark>
-    <name>Sri Lanka</name>
-    <styleUrl>#label</styleUrl>
-    <Point>
-      <coordinates>
-        84.552222,3.484694,0
-      </coordinates>
-    </Point>
- </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Hong Kong</name>
@@ -105,6 +116,7 @@
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Maldives</name>
@@ -125,6 +137,7 @@
       </outerBoundaryIs>
     </Polygon>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>India West</name>
@@ -143,6 +156,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>India East</name>
@@ -160,6 +174,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Australia</name>
@@ -188,6 +203,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Malaysia - MSRR</name>
@@ -207,6 +223,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Malaysia - Gulf of Thailand and Malacca Strait</name>
@@ -224,6 +241,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Malaysia - South China Sea and Sulu Sea</name>
@@ -249,6 +267,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Thailand - Andaman Sea</name>
@@ -263,6 +282,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Thailand - Gulf of Thailand</name>
@@ -277,6 +297,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Cambodia</name>
@@ -290,6 +311,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#highlight</styleUrl>
     <name>Singapore 1</name>
@@ -306,6 +328,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#highlight</styleUrl>
     <name>Singapore 2</name>
@@ -323,6 +346,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#highlight</styleUrl>
     <name>Singapore 3</name>
@@ -335,6 +359,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#highlight</styleUrl>
     <name>Singapore 4</name>
@@ -350,6 +375,7 @@
         </coordinates>
     </LineString>
   </Placemark>
+
   <Placemark>
     <styleUrl>#highlight</styleUrl>
     <name>Vietnam</name>
