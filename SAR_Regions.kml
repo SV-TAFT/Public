@@ -54,6 +54,10 @@
         84.552222,3.484694,0
       </coordinates>
     </Point>
+  </Placemark>
+<Placemark>
+    <styleUrl>#default</styleUrl>
+    <name>Sri Lanka</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
