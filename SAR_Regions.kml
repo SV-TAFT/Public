@@ -47,10 +47,10 @@
     <LabelStyle>
        <color>FFFF6600</color>
        <colorMode>normal</colorMode>
-       <scale>0.5</scale>
+       <scale>1</scale>
     </LabelStyle>
     <IconStyle>
-        <scale>0.5</scale>
+        <scale>0.25</scale>
     </IconStyle>
   </Style>
 
