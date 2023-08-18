@@ -17,7 +17,7 @@
     <LabelStyle>
        <color>ff0000ff</color>
        <colorMode>normal</colorMode>
-       <scale>1.5</scale>
+       <scale>1</scale>
     </LabelStyle>
     <IconStyle>
         <scale>0</scale>
@@ -36,7 +36,7 @@
     <LabelStyle>
        <color>ff0000ff</color>
        <colorMode>normal</colorMode>
-       <scale>1.5</scale>
+       <scale>1</scale>
     </LabelStyle>
     <IconStyle>
         <scale>0</scale>
@@ -50,7 +50,7 @@
        <scale>1</scale>
     </LabelStyle>
     <IconStyle>
-        <scale>0.25</scale>
+        <scale>0.4</scale>
     </IconStyle>
   </Style>
 
@@ -58,8 +58,10 @@
 <!-- SAR REGIONS -->
 
 <!-- SRI LANKA -->
+<!-- SOURCE: GISIS GLOBAL SAR PLAN -->
+<!-- DOI: 2017-10-30 -->
 
-<Placemark>
+<Placemark> //MRCC
     <styleUrl>#point</styleUrl>
     <name>MRCC COLOMBO</name>
     <Point>
@@ -69,7 +71,7 @@
     </Point>
   </Placemark>
 
-<Placemark>
+<Placemark> //SAR REGION LABEL
     <styleUrl>#default</styleUrl>
     <name>SRI LANKA</name>
     <Point>
@@ -79,8 +81,7 @@
     </Point>
   </Placemark>
 
-
-<Placemark>
+<Placemark> //SAR REGION AREA
     <styleUrl>#default</styleUrl>
     <name>SRI LANKA</name>
     <Polygon>
