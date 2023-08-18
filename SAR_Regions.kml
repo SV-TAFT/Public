@@ -49,6 +49,11 @@
 <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Sri Lanka</name>
+    <description>
+      This description balloon opens 
+      when the Placemark is loaded.
+    </description>
+    <gx:balloonVisibility>1</gx:balloonVisibility>
     <MultiGeometry>
     <Point>
       <coordinates>
