@@ -5,6 +5,7 @@
 
 <!-- STYLE DEFINITIONS -->
 
+<!-- DEFAULT STYLE FOR SAR REGION LINES AND LABELS -->
 <Style id="default">
     <LineStyle>
       <color>ff0000ff</color>
@@ -24,6 +25,7 @@
     </IconStyle>
   </Style>
 
+<!-- HIGHLIGHTED STYLE FOR SAR REGION LINES AND LABELS -->
   <Style id="highlight">
     <LineStyle>
       <color>ff0000ff</color>
@@ -43,6 +45,7 @@
     </IconStyle>
   </Style>
 
+<!-- DEFAULT STYLE FOR MRCC POINTS AND LABELS -->
 <Style id="point">
     <LabelStyle>
        <color>FFFF6600</color>
@@ -50,7 +53,7 @@
        <scale>1</scale>
     </LabelStyle>
     <IconStyle>
-        <scale>0.4</scale>
+        <scale>0.333</scale>
     </IconStyle>
   </Style>
 
@@ -60,7 +63,6 @@
 <!-- SRI LANKA -->
 <!-- SOURCE: GISIS GLOBAL SAR PLAN -->
 <!-- DOI: 2017-10-30 -->
-
 <Placemark> //MRCC
     <styleUrl>#point</styleUrl>
     <name>MRCC COLOMBO</name>
@@ -70,7 +72,6 @@
       </coordinates>
     </Point>
   </Placemark>
-
 <Placemark> //SAR REGION LABEL
     <styleUrl>#default</styleUrl>
     <name>SRI LANKA</name>
@@ -80,7 +81,6 @@
       </coordinates>
     </Point>
   </Placemark>
-
 <Placemark> //SAR REGION AREA
     <styleUrl>#default</styleUrl>
     <name>SRI LANKA</name>
