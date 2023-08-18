@@ -49,11 +49,6 @@
 <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Sri Lanka</name>
-    <description>
-      This description balloon opens 
-      when the Placemark is loaded.
-    </description>
-    <gx:balloonVisibility>1</gx:balloonVisibility>
     <MultiGeometry>
     <Point>
       <coordinates>
@@ -127,6 +122,12 @@
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Maldives</name>
+    <MultiGeometry>
+    <Point>
+      <coordinates>
+        71.966666,0,0
+      </coordinates>
+    </Point>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
@@ -143,6 +144,7 @@
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
+  </MultiGeometry>
   </Placemark>
 
   <Placemark>
