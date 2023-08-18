@@ -45,7 +45,7 @@
     </IconStyle>
   </Style>
 
-<!-- DEFAULT STYLE FOR MRCC POINTS AND LABELS -->
+<!-- DEFAULT STYLE FOR RCC POINTS AND LABELS -->
 <Style id="point">
     <LabelStyle>
        <color>FFFF6600</color>
@@ -63,7 +63,7 @@
 <!-- SRI LANKA -->
 <!-- SOURCE: GISIS GLOBAL SAR PLAN -->
 <!-- DOI: 2017-10-30 -->
-<Placemark> //MRCC
+<Placemark> //RCC
     <styleUrl>#point</styleUrl>
     <name>MRCC COLOMBO</name>
     <Point>
@@ -105,7 +105,7 @@
 <!-- MALDIVES -->
 <!-- SOURCE: GISIS GLOBAL SAR PLAN -->
 <!-- DOI: 2019-11-21 -->
-<Placemark> //MRCC
+<Placemark> //RCC
     <styleUrl>#point</styleUrl>
     <name>MRCC VILLIMALE'</name>
     <Point>
@@ -142,6 +142,90 @@
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
+  </Placemark>
+
+<!-- INDIA -->
+<!-- SOURCE: GISIS GLOBAL SAR PLAN -->
+<!-- DOI: 2022-12-18 -->
+<Placemark> //RCC
+    <styleUrl>#point</styleUrl>
+    <name>MRCC MUMBAI</name>
+    <Point>
+      <coordinates>
+        72.817317,19.016999,0
+      </coordinates>
+    </Point>
+  </Placemark>
+<Placemark> //SAR REGION LABEL
+    <styleUrl>#default</styleUrl>
+    <name>INDIA (WEST)</name>
+    <Point>
+      <coordinates>
+        66.137694,11.116972,0
+      </coordinates>
+    </Point>
+  </Placemark>
+  <Placemark> //SAR REGION AREA
+    <styleUrl>#default</styleUrl>
+    <name>INDIA (WEST)</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+        68.184055,23.738333,0
+        63,12,0
+        60,12,0
+        60,-6,0
+        68,-6,0
+        68,-0,0
+        73,8,0
+        77.333333,6.267166,0
+        77.333361,8.123222,0
+        </coordinates>
+    </LineString>
+  </Placemark>
+<Placemark> //RCC
+    <styleUrl>#point</styleUrl>
+    <name>MRCC CHENNAI</name>
+    <Point>
+      <coordinates>
+        80.288069,13.068764,0
+      </coordinates>
+    </Point>
+  </Placemark>
+<Placemark> //SAR REGION LABEL
+    <styleUrl>#default</styleUrl>
+    <name>INDIA (EAST)</name>
+    <Point>
+      <coordinates>
+        81.480916,11.116972,0
+      </coordinates>
+    </Point>
+  </Placemark>
+  <Placemark> //SAR REGION AREA
+    <styleUrl>#default</styleUrl>
+    <name>INDIA (EAST)</name>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+        77.333361,8.123222,0
+        77.333333,6.267166,0
+        78,6,0
+        80,10,0
+        82,10,0
+        88.5,7.404361,0
+        88.5,15.333333,0
+        89.097416,21.705944,0
+        </coordinates>
+    </LineString>
+  </Placemark>
+<Placemark> //RCC
+    <styleUrl>#point</styleUrl>
+    <name>MRCC PORT BLAIR</name>
+    <Point>
+      <coordinates>
+        92.716554,11.671606,0
+      </coordinates>
+    </Point>
   </Placemark>
 
 
@@ -193,42 +277,7 @@
 
 
 
-  <Placemark>
-    <styleUrl>#default</styleUrl>
-    <name>India West</name>
-    <LineString>
-      <altitudeMode>clampToGround</altitudeMode>
-        <coordinates>
-        68.184055,23.738333,0
-        63,12,0
-        60,12,0
-        60,-6,0
-        68,-6,0
-        68,-0,0
-        73,8,0
-        77.333333,6.267166,0
-        77.333361,8.123222,0
-        </coordinates>
-    </LineString>
-  </Placemark>
 
-  <Placemark>
-    <styleUrl>#default</styleUrl>
-    <name>India East</name>
-    <LineString>
-      <altitudeMode>clampToGround</altitudeMode>
-        <coordinates>
-        77.333361,8.123222,0
-        77.333333,6.267166,0
-        78,6,0
-        80,10,0
-        82,10,0
-        88.5,7.404361,0
-        88.5,15.333333,0
-        89.097416,21.705944,0
-        </coordinates>
-    </LineString>
-  </Placemark>
 
   <Placemark>
     <styleUrl>#default</styleUrl>
