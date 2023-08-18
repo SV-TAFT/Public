@@ -146,7 +146,7 @@
   </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>Malaysia - Gulf of Thailand & Malacca Strait</name>
+    <name>Malaysia - Gulf of Thailand and Malacca Strait</name>
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
@@ -163,7 +163,7 @@
   </Placemark>
   <Placemark>
     <styleUrl>#default</styleUrl>
-    <name>Malaysia - South China Sea & Sulu Sea</name>
+    <name>Malaysia - South China Sea and Sulu Sea</name>
     <LineString>
       <altitudeMode>clampToGround</altitudeMode>
         <coordinates>
