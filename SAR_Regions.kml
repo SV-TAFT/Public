@@ -43,18 +43,46 @@
     </IconStyle>
   </Style>
 
+<Style id="point">
+    <LabelStyle>
+       <color>FFFF6600</color>
+       <colorMode>normal</colorMode>
+       <scale>0.5</scale>
+    </LabelStyle>
+    <IconStyle>
+        <scale>0.5</scale>
+    </IconStyle>
+  </Style>
+
 
 <!-- SAR REGIONS -->
+
+<!-- SRI LANKA -->
+
+<Placemark>
+    <styleUrl>#point</styleUrl>
+    <name>MRCC Colombo</name>
+    <Point>
+      <coordinates>
+        79.841166,6.936166,0
+      </coordinates>
+    </Point>
+  </Placemark>
 
 <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Sri Lanka</name>
-    <MultiGeometry>
     <Point>
       <coordinates>
         83.493444,3.484694,0
       </coordinates>
     </Point>
+  </Placemark>
+
+
+<Placemark>
+    <styleUrl>#default</styleUrl>
+    <name>Sri Lanka</name>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
@@ -71,7 +99,6 @@
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
-  </MultiGeometry>
   </Placemark>
 
   <Placemark>
@@ -122,12 +149,6 @@
   <Placemark>
     <styleUrl>#default</styleUrl>
     <name>Maldives</name>
-    <MultiGeometry>
-    <Point>
-      <coordinates>
-        71.966666,0,0
-      </coordinates>
-    </Point>
     <Polygon>
       <altitudeMode>clampToGround</altitudeMode>
       <outerBoundaryIs>
@@ -144,7 +165,6 @@
         </LinearRing>
       </outerBoundaryIs>
     </Polygon>
-  </MultiGeometry>
   </Placemark>
 
   <Placemark>
